@@ -243,7 +243,7 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url="https://t.me/Moviesbank_Corporation/60")
+        InlineKeyboardButton("⚡ How To Download ⚡", url="https://t.me/Moviesbank_Corporation/101")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -355,7 +355,7 @@ async def language_check(bot, query):
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("⚡ How To Download ⚡", url="https://t.me/Moviesbank_Corporation/60")
+            InlineKeyboardButton("⚡ How To Download ⚡", url="https://t.me/Moviesbank_Corporation/101")
         ])
 
         if offset != "":
@@ -1122,16 +1122,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('🍟 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs 🍟', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="https://t.me/Prince0_66"),
-                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
+                    InlineKeyboardButton('🔍 Search 🔍 ', switch_inline_query_current_chat=''),
+                    InlineKeyboardButton('🌼 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🌼', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
-                ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
+                    InlineKeyboardButton('🍄 Hᴇʟᴘ 🍄', callback_data='help'),
+                    InlineKeyboardButton('🔰 Aʙᴏᴜᴛ 🔰', callback_data='about'),
+                    ],[
+                    InlineKeyboardButton('💰EARN MONEY WITH BOT💸', url=CHNL_LNK)
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1607,7 +1606,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url="https://t.me/Moviesbank_Corporation/60")
+        InlineKeyboardButton("⚡ How To Download ⚡", url="https://t.me/Moviesbank_Corporation/101")
     ])
 
     if offset != "":
