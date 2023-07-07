@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🍟 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs 🍟', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔍 Search 🔍 ', switch_inline_query_current_chat=''),
+                    InlineKeyboardButton('🔍 Search 🔍', switch_inline_query_current_chat=''),
                     InlineKeyboardButton('🌼 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🌼', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🍄 Hᴇʟᴘ 🍄', callback_data='help'),
@@ -52,7 +52,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🍟 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs 🍟', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔍 Search 🔍 ', switch_inline_query_current_chat=''),
+                    InlineKeyboardButton('🔍 Search 🔍', switch_inline_query_current_chat=''),
                     InlineKeyboardButton('🌼 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🌼', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🍄 Hᴇʟᴘ 🍄', callback_data='help'),
@@ -100,7 +100,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🍟 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs 🍟', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔍 Search 🔍 ', switch_inline_query_current_chat=''),
+                    InlineKeyboardButton('🔍 Search 🔍', switch_inline_query_current_chat=''),
                     InlineKeyboardButton('🌼 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ 🌼', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('🍄 Hᴇʟᴘ 🍄', callback_data='help'),
