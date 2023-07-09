@@ -355,7 +355,7 @@ async def language_check(bot, query):
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("⚡ How To Download ⚡", url="https://t.me/Moviesbank_Corporation/101")
+            InlineKeyboardButton("💎 How To Download 💎", url="https://t.me/Moviesbank_Corporation/101")
         ])
 
         if offset != "":
@@ -1606,7 +1606,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url="https://t.me/Moviesbank_Corporation/101")
+        InlineKeyboardButton("💎 How To Download 💎", url="https://t.me/Moviesbank_Corporation/101")
     ])
 
     if offset != "":
