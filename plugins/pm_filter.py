@@ -243,7 +243,7 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("⚡ How To Download ⚡", url="https://t.me/Moviesbank_Corporation/101")
+        InlineKeyboardButton("💎 How To Download 💎", url="https://t.me/Moviesbank_Corporation/101")
     ])
     try:
         await query.edit_message_reply_markup(
