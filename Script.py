@@ -192,16 +192,7 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
-
-<b>
-╭─────── • ◆ • ───────╮
-🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/addtheme/DQ_The_File_Donor_Theme">Tᴏᴜᴄʜ</a>
-╰─────── • ◆ • ───────╯
-
-=========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : @PR_allmovise_0
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @ak_bot_support
-=========== • ✠ • ===========</b>"""
+"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
