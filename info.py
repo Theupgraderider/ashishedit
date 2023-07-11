@@ -42,7 +42,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hegodal811:ehNXCGMvCqxKj1w3@cluster0.3xnorax.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappanto")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_filespo')
 
@@ -60,7 +60,7 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/PR_allmovise_0')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Moviesbank_Corporation')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL',-1001970807825))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL',-100))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Moviesbank_Corporation')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
